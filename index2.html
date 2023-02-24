@@ -81,173 +81,6 @@
     <link rel="stylesheet" href="styles.css">
   </noscript>
   <style>
-    :root {
-        --gutter: 2rem;
-        --gutter-page: 4rem;
-        --gutter-shop: 2.5rem;
-        --gutter-support: 2.5rem
-    }
-
-    @media all and (max-width: 991px) {
-        :root {
-            --gutter: 1.5rem;
-            --gutter-page: 2rem
-        }
-    }
-
-    .chat-toggler {
-        position: fixed;
-        bottom: var(--gutter);
-        right: var(--gutter);
-        z-index: 1000;
-        width: 5rem;
-        height: 5rem;
-        background-color: #5365c0;
-        border: none;
-        color: #fff;
-        font-size: 2rem;
-        padding: 0;
-        transition: opacity .2s ease-out 0s, visibility .2s ease-out 0s, filter .2s ease-out 0s
-    }
-
-    .chat-toggler:hover {
-        filter: brightness(1.2)
-    }
-
-    @media all and (max-width: 991px) {
-        .chat-toggler {
-            display: none
-        }
-    }
-
-    .wrapper {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 100%;
-        will-change: background-color;
-        overflow: hidden;
-        transition: background-color .2s ease-out 0s, width .2s ease-out 0s
-    }
-
-    @media all and (min-width: 1920px) {
-        .wrapper.chat_open {
-            width: calc(100% - 38.8rem)
-        }
-    }
-
-    @media all and (max-width: 991px) {
-        .wrapper.wrapper_game .header {
-            position: absolute;
-            top: 0;
-            left: 0
-        }
-    }
-
-    .wrapper.wrapper_game .container {
-        max-width: 184rem;
-        padding: 0 var(--gutter)
-    }
-
-    @media all and (max-width: 991px) {
-        .wrapper.wrapper_game .container {
-            padding: 0
-        }
-    }
-
-    .wrapper.wrapper_xmas {
-        background: linear-gradient(180deg, #08071B 0%, #101426 100%)
-    }
-
-    @media all and (max-width: 767px) {
-        .wrapper.wrapper_double {
-            background-color: inherit
-        }
-    }
-
-    @media all and (max-width: 991px) {
-        .wrapper {
-            flex-direction: column;
-            height: 100%
-        }
-    }
-
-    .container {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 100%;
-        margin: 0 auto;
-        padding: 0
-    }
-
-    @media all and (min-width: 992px) {
-        .container {
-            position: relative;
-            z-index: 103;
-            padding: 0 10rem;
-            flex-direction: row;
-            padding-bottom: 0;
-            min-height: calc(100vh - 10.4rem)
-        }
-    }
-
-    .no_scroll {
-        height: var(--vh);
-        min-height: auto;
-        overflow: hidden
-    }
-
-    .game-sidebar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex: 0 0 auto;
-        width: 49.8rem;
-        border-radius: 3rem;
-        background-color: #1e2444;
-        margin-right: var(--gutter)
-    }
-
-    .game-sidebar_wheel {
-        overflow: hidden
-    }
-
-    .game-sidebar.is-hidden {
-        display: none
-    }
-
-    .game-sidebar .game-sidebar__header {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        flex: 0 0 auto;
-        width: 100%;
-        height: 39.4rem
-    }
-
-    @media all and (max-width: 991px) {
-        .game-sidebar {
-            width: 100%;
-            border-radius: 0;
-            background-color: transparent
-        }
-
-        .game-sidebar.game-sidebar_jackpot {
-            margin-top: var(--gutter)
-        }
-
-        .game-sidebar:not(.game-sidebar_jackpot) {
-            margin-top: 7rem;
-            margin-bottom: var(--gutter)
-        }
-
-        .game-sidebar .game-sidebar__header {
-            height: auto
-        }
-    }
-</style>
-  <style>
     [_ngcontent-serverApp-c119]:root {
       --gutter: 2rem;
       --gutter-page: 4rem;
@@ -3223,8 +3056,7 @@
         </div><!---->
       </div><!----><!---->
     </ng-progress><router-outlet></router-outlet><shell-wrapper>
-      <div class="wrapper">
-        <shell-header class="header" _nghost-serverapp-c119=""><a _ngcontent-serverapp-c119=""
+      <div class="wrapper"><shell-header class="header" _nghost-serverapp-c119=""><a _ngcontent-serverapp-c119=""
             routerlink="/" class="header__logo logo logo_header link" href="https://csfail.pro/en/"><span
               _ngcontent-serverapp-c119="" class="logo__circle"></span><span _ngcontent-serverapp-c119=""
               class="logo__arrow logo__arrow_small"></span><span _ngcontent-serverapp-c119=""
@@ -3232,7 +3064,10 @@
               class="logo__text"></span></a>
           <div _ngcontent-serverapp-c119="" class="header__games header-games"><button _ngcontent-serverapp-c119=""
               type="button" placement="bottom-start" appendto="parent" variation="headerGames"
-              class="header-games__btn button button_block" aria-expanded="false"><img src="./public/images/icon/retro-game.png" class="icon icon_retro_game">Games<!----><img src="./public/images/icon/down-arrow.png" class="icon down_arrow"></button><!----></div>
+              class="header-games__btn button button_block" aria-expanded="false"><img src="./public/images/icon/retro-game.png" style="
+    width: 2rem;
+    margin-right: 1rem;
+">Games<!----><img src="./public/images/icon/down-arrow.png" style="width: 2rem; margin-left: 0.5rem;"></button><!----></div>
           <div _ngcontent-serverapp-c119="" class="header__menu menu"><a _ngcontent-serverapp-c119=""
               routerlink="/season-pass" routerlinkactive="is-active" class="menu__link link"
               href="https://csfail.pro/en/season-pass"><span _ngcontent-serverapp-c119="" class="mode__icon">
@@ -3241,17 +3076,23 @@
                 <div _ngcontent-serverapp-c119="" class="shield-pink"></div>
                 <div _ngcontent-serverapp-c119="" class="arrows-pink"></div>
               </span>Battle pass<!----></a><a _ngcontent-serverapp-c119="" routerlink="/bonuses"
-              routerlinkactive="is-active" class="menu__link link" href="https://csfail.pro/en/bonuses"><img src="./public/images/icon/money.png" class="icon"></span>Bonuses<!----></a><a
+              routerlinkactive="is-active" class="menu__link link" href="https://csfail.pro/en/bonuses"><img src="./public/images/icon/money.png" style="
+    width: 2rem;
+">Bonuses<!----></a><a
               _ngcontent-serverapp-c119="" routerlink="/top" routerlinkactive="is-active" class="menu__link link"
-              href="https://csfail.pro/en/top"><img src="./public/images/icon/top.png" class="icon">Top<!----></a><a _ngcontent-serverapp-c119="" routerlink="/referrals"
-              routerlinkactive="is-active" class="menu__link link" href="https://csfail.pro/en/referrals"><img src="./public/images/icon/suitcase.png" class="icon">Partnership<!----></a></div>
+              href="https://csfail.pro/en/top"><i _ngcontent-serverapp-c119=""
+                class="icon icon_trophy-bold"></i>Top<!----></a><a _ngcontent-serverapp-c119="" routerlink="/referrals"
+              routerlinkactive="is-active" class="menu__link link" href="https://csfail.pro/en/referrals"><i
+                _ngcontent-serverapp-c119="" class="icon icon_parthership-bold"></i>Partnership<!----></a></div>
           <div _ngcontent-serverapp-c119="" class="header__profile profile-header"><users-login-button
               _ngcontent-serverapp-c119="" class="profile-header__login ng-star-inserted"
-              _nghost-serverapp-c87=""><button _ngcontent-serverapp-c87="" type="button" class="button button_login"><img src="./public/images/icon/padlock.png" class="icon"><span _ngcontent-serverapp-c87=""
+              _nghost-serverapp-c87=""><button _ngcontent-serverapp-c87="" type="button" class="button button_login"><i
+                  _ngcontent-serverapp-c87="" class="icon icon_lock-bold-2"></i><span _ngcontent-serverapp-c87=""
                   class="button__text">Authorization</span></button></users-login-button><!----><!----><!---->
             <div _ngcontent-serverapp-c119="" class="header__actions"><!----><a _ngcontent-serverapp-c119=""
-                routerlink="/support" class="header__support button" href="https://csfail.pro/en/support"><img src="./public/images/icon/support.png" class="icon"></a><button
-                _ngcontent-serverapp-c119="" type="button" class="header__settings button"><img src="./public/images/icon/settings.png" class="icon"></button><!----><!----></div>
+                routerlink="/support" class="header__support button" href="https://csfail.pro/en/support"><i
+                  _ngcontent-serverapp-c119="" class="icon icon_support-alt"></i></a><button
+                _ngcontent-serverapp-c119="" type="button" class="header__settings button"><img src="./public/images/icon/settings.png" style="width: 2rem;"></button><!----><!----></div>
           </div><!----><!---->
         </shell-header>
         <div class="container"><router-outlet></router-outlet><main-home class="main-page ng-star-inserted">
@@ -3275,7 +3116,8 @@
                             <div _ngcontent-serverapp-c136="" class="slide__title"> Double Mode </div>
                             <div _ngcontent-serverapp-c136="" class="slide__subtitle"> Loot skins from gaben`s pig!
                             </div><button _ngcontent-serverapp-c136="" type="button"
-                              class="slide__button button ng-star-inserted"><img src="./public/images/icon/right-arrow.png" class="icon"></button><!---->
+                              class="slide__button button ng-star-inserted"><i _ngcontent-serverapp-c136=""
+                                class="icon icon_arrow-right-alt"></i></button><!---->
                           </div>
                           <div _ngcontent-serverapp-c136="" class="slide__img"
                             style="background-image: url(./public/images/5af59513-fa6c-49f9-b56b-8e3ea3644299-63d28126cbc8a.png);">
@@ -3304,7 +3146,8 @@
                             <div _ngcontent-serverapp-c136="" class="slide__title"> Telegram Bonus </div>
                             <div _ngcontent-serverapp-c136="" class="slide__subtitle"> We give a bonus of 0.1$ for
                               subscribing </div><button _ngcontent-serverapp-c136="" type="button"
-                              class="slide__button button ng-star-inserted"><img src="./public/images/icon/right-arrow.png" class="icon"></i></button><!---->
+                              class="slide__button button ng-star-inserted"><i _ngcontent-serverapp-c136=""
+                                class="icon icon_arrow-right-alt"></i></button><!---->
                           </div>
                           <div _ngcontent-serverapp-c136="" class="slide__img"
                             style="background-image: url(./public/images/d17e381c-f4ca-4013-8ce8-57f6f62e3d82-63d2812289460.png;);">
@@ -3319,7 +3162,8 @@
                             <div _ngcontent-serverapp-c136="" class="slide__title"> Double Mode </div>
                             <div _ngcontent-serverapp-c136="" class="slide__subtitle"> Loot skins from gaben`s pig!
                             </div><button _ngcontent-serverapp-c136="" type="button"
-                              class="slide__button button ng-star-inserted"><img src="./public/images/icon/right-arrow.png" class="icon"></button><!---->
+                              class="slide__button button ng-star-inserted"><i _ngcontent-serverapp-c136=""
+                                class="icon icon_arrow-right-alt"></i></button><!---->
                           </div>
                           <div _ngcontent-serverapp-c136="" class="slide__img"
                             style="background-image: url(./public/images/5af59513-fa6c-49f9-b56b-8e3ea3644299-63d28126cbc8a.png);">
@@ -3344,40 +3188,49 @@
                   </div><!---->
                 </swiper><!---->
                 <div class="main-banner__nav nav ng-star-inserted"><button type="button"
-                    class="nav__button nav__button_prev button button_block"><img src="./public/images/icon/right-arrow-small.png" class="icon"></button><button type="button"
-                    class="nav__button nav__button_next button button_block"><img src="./public/images/icon/right-arrow-small.png" class="icon"></button></div><!----><!---->
+                    class="nav__button nav__button_prev button button_block"><i
+                      class="icon icon_circle-arrow-right"></i></button><button type="button"
+                    class="nav__button nav__button_next button button_block"><i
+                      class="icon icon_circle-arrow-right"></i></button></div><!----><!---->
               </main-slider-banners>
               <div class="main__bonus-deposit bonus-deposit">
                 <div class="bonus-deposit__title">Deposit bonus</div>
-                <div class="bonus-deposit__btns"><button class="bonus-deposit__copy button"> +35% <img src="./public/images/icon/copy.png" class="icon"></button><a routerlink="/payment"
-                    class="bonus-deposit__away button" href="https://csfail.pro/en/payment"><img src="./public/images/icon/right-arrow.png" class="icon"></a></div><img
+                <div class="bonus-deposit__btns"><button class="bonus-deposit__copy button"> +35% <i
+                      class="icon icon_copy-bold-alt"></i></button><a routerlink="/payment"
+                    class="bonus-deposit__away button" href="https://csfail.pro/en/payment"><i
+                      class="icon icon_arrow-right-alt"></i></a></div><img
                   src="./public/images/main-bonus-deposit.webp" alt="On deposit bonus"
                   class="bonus-deposit__img">
               </div>
             </div>
             <div class="main__bonuses ng-star-inserted"><a routerlink="/top" class="link bonus-card"
                 href="https://csfail.pro/en/top">
-                <div class="bonus-card__title"> Top <img src="./public/images/icon/right-arrow-small.png" class="icon"></div>
+                <div class="bonus-card__title"> Top <i class="icon icon_circle-arrow-right"></i></div>
                 <div class="bonus-card__sub-title">$2300 draw every week</div>
                 <div class="bonus-card__img bonus-card__img_top"></div>
               </a><a routerlink="/bonuses" class="link bonus-card" href="https://csfail.pro/en/bonuses">
-                <div class="bonus-card__title ng-star-inserted"> Daily bonuses <img src="./public/images/icon/right-arrow-small.png" class="icon"></div><!----><!---->
+                <div class="bonus-card__title ng-star-inserted"> Daily bonuses <i
+                    class="icon icon_circle-arrow-right"></i></div><!----><!---->
                 <div class="bonus-card__sub-title">Free rewards</div>
                 <div class="bonus-card__img bonus-card__img_bonuses"></div>
               </a><a routerlink="/season-pass" class="link bonus-card" href="https://csfail.pro/en/season-pass">
-                <div class="bonus-card__title"> Battlepass <img src="./public/images/icon/right-arrow-small.png" class="icon"></div>
+                <div class="bonus-card__title"> Battlepass <i class="icon icon_circle-arrow-right"></i></div>
                 <div class="bonus-card__sub-title">Get cases for quests</div>
                 <div class="bonus-card__img bonus-card__img_battlepass"></div>
               </a></div><main-block blocktitle="Modes" titleicon="retro-bug"
               class="main-block main__modes-block ng-star-inserted">
-              <div class="main__block-title"><img src="./public/images/icon/retro-game.png" class="icon"> Modes
+              <div class="main__block-title"><img src="./public/images/icon/money.png" style="
+    width: 2rem;
+    margin-right: 1rem;
+" > Modes
               </div>
               <div class="main__modes modes-cards"><main-mode-card
                   class="mode-card mode-card_battleship ng-star-inserted">
                   <div class="mode-card__bg ng-star-inserted"></div><!----><!---->
                   <div class="mode-card__head">
                     <div class="mode-card__title-wrap">
-                      <div class="mode-card__title"> Battle Ship <img src="./public/images/icon/right-arrow-small.png" class="icon"><!----></div><!----><!---->
+                      <div class="mode-card__title"> Battle Ship <i
+                          class="icon icon_circle-arrow-right ng-star-inserted"></i><!----></div><!----><!---->
                       <div class="mode-card__soon ng-star-inserted"> Soon </div><!---->
                     </div>
                     <div class="mode-card__badge ng-star-inserted"> pvp </div><!---->
@@ -3385,27 +3238,29 @@
                   <div class="mode-card__logo ng-star-inserted"></div>
                   <div class="mode-card__gabe ng-star-inserted"></div><!----><!---->
                   <div class="mode-card__img"></div><!---->
-                  <div class="mode-card__players-number ng-star-inserted"><img src="./public/images/icon/group.png" class="icon"> 0
+                  <div class="mode-card__players-number ng-star-inserted"><i class="icon icon_users-bold"></i> 0
                   </div><!---->
                 </main-mode-card><main-mode-card tabindex="0"
                   class="mode-card mode-card_crash ng-star-inserted"><!----><!---->
                   <div class="mode-card__head">
                     <div class="mode-card__title-wrap">
-                      <div class="mode-card__title"> Crash <img src="./public/images/icon/right-arrow-small.png" class="icon"><!----></div><!---->
+                      <div class="mode-card__title"> Crash <i
+                          class="icon icon_circle-arrow-right ng-star-inserted"></i><!----></div><!---->
                       <div class="mode-card__bank-wrap ng-star-inserted"><span convertdigits="1.0-0" duration="750"
                           class="mode-card__bank currency_RUB">15 100</span><!----></div><!----><!---->
                     </div>
                     <div class="mode-card__badge ng-star-inserted"> pve </div><!---->
                   </div><!---->
                   <div class="mode-card__img"></div><!---->
-                  <div class="mode-card__players-number ng-star-inserted"><img src="./public/images/icon/group.png" class="icon"> 47
+                  <div class="mode-card__players-number ng-star-inserted"><i class="icon icon_users-bold"></i> 47
                   </div><!---->
                 </main-mode-card><main-mode-card tabindex="0"
                   class="mode-card mode-card_double ng-star-inserted"><!---->
                   <div class="mode-card__pig-bg ng-star-inserted"></div><!---->
                   <div class="mode-card__head">
                     <div class="mode-card__title-wrap">
-                      <div class="mode-card__title"> Double <img src="./public/images/icon/right-arrow-small.png" class="icon"><!----></div><!---->
+                      <div class="mode-card__title"> Double <i
+                          class="icon icon_circle-arrow-right ng-star-inserted"></i><!----></div><!---->
                       <div class="mode-card__bank-wrap ng-star-inserted"><span convertdigits="1.0-0" duration="750"
                           class="mode-card__bank currency_RUB">211</span><!----></div><!----><!---->
                     </div>
@@ -3414,57 +3269,61 @@
                   <div class="mode-card__img"></div>
                   <div class="mode-card__new-badge ng-star-inserted"> New
                   </div><!---->
-                  <div class="mode-card__players-number ng-star-inserted"><img src="./public/images/icon/group.png" class="icon"> 12
+                  <div class="mode-card__players-number ng-star-inserted"><i class="icon icon_users-bold"></i> 12
                   </div><!---->
                 </main-mode-card><main-mode-card tabindex="0"
                   class="mode-card mode-card_wheel ng-star-inserted"><!----><!---->
                   <div class="mode-card__head">
                     <div class="mode-card__title-wrap">
-                      <div class="mode-card__title"> Wheel <img src="./public/images/icon/right-arrow-small.png" class="icon"><!----></div><!---->
+                      <div class="mode-card__title"> Wheel <i
+                          class="icon icon_circle-arrow-right ng-star-inserted"></i><!----></div><!---->
                       <div class="mode-card__bank-wrap ng-star-inserted"><span convertdigits="1.0-0" duration="750"
                           class="mode-card__bank currency_RUB">371</span><!----></div><!----><!---->
                     </div>
                     <div class="mode-card__badge ng-star-inserted"> pve </div><!---->
                   </div><!---->
                   <div class="mode-card__img"></div><!---->
-                  <div class="mode-card__players-number ng-star-inserted"><img src="./public/images/icon/group.png" class="icon"> 14
+                  <div class="mode-card__players-number ng-star-inserted"><i class="icon icon_users-bold"></i> 14
                   </div><!---->
                 </main-mode-card><main-mode-card tabindex="0"
                   class="mode-card mode-card_jackpot ng-star-inserted"><!----><!---->
                   <div class="mode-card__head">
                     <div class="mode-card__title-wrap">
-                      <div class="mode-card__title"> Jackpot <img src="./public/images/icon/right-arrow-small.png" class="icon"><!----></div><!---->
+                      <div class="mode-card__title"> Jackpot <i
+                          class="icon icon_circle-arrow-right ng-star-inserted"></i><!----></div><!---->
                       <div class="mode-card__bank-wrap ng-star-inserted"><span convertdigits="1.0-0" duration="750"
                           class="mode-card__bank currency_RUB">405</span><!----></div><!----><!---->
                     </div>
                     <div class="mode-card__badge ng-star-inserted"> pvp </div><!---->
                   </div><!---->
                   <div class="mode-card__img"></div><!---->
-                  <div class="mode-card__players-number ng-star-inserted"><img src="./public/images/icon/group.png" class="icon"> 6
+                  <div class="mode-card__players-number ng-star-inserted"><i class="icon icon_users-bold"></i> 6
                   </div><!---->
                 </main-mode-card><main-mode-card class="mode-card mode-card_defuse ng-star-inserted"><!----><!---->
                   <div class="mode-card__head">
                     <div class="mode-card__title-wrap">
-                      <div class="mode-card__title"> Defuse <img src="./public/images/icon/right-arrow-small.png" class="icon"><!----></div><!----><!---->
+                      <div class="mode-card__title"> Defuse <i
+                          class="icon icon_circle-arrow-right ng-star-inserted"></i><!----></div><!----><!---->
                       <div class="mode-card__soon ng-star-inserted"> Soon </div><!---->
                     </div>
                     <div class="mode-card__badge ng-star-inserted"> pve </div><!---->
                   </div><!---->
                   <div class="mode-card__img"></div><!---->
-                  <div class="mode-card__players-number ng-star-inserted"><img src="./public/images/icon/group.png" class="icon"> 0
+                  <div class="mode-card__players-number ng-star-inserted"><i class="icon icon_users-bold"></i> 0
                   </div><!---->
                 </main-mode-card><!----><!----><main-mode-card gamemode="support" cardtitle="Support"
                   routerlink="/support" tabindex="0" class="mode-card mode-card_support"><!----><!---->
                   <div class="mode-card__head">
                     <div class="mode-card__title-wrap">
-                      <div class="mode-card__title"> Support <img src="./public/images/icon/right-arrow-small.png" class="icon"><!----></div><!----><!----><!---->
+                      <div class="mode-card__title"> Support <i
+                          class="icon icon_circle-arrow-right ng-star-inserted"></i><!----></div><!----><!----><!---->
                     </div><!---->
                   </div><!---->
                   <div class="mode-card__img"></div><!----><!---->
                 </main-mode-card></div>
             </main-block><main-block blocktitle="Live drop" titleicon="three-lines"
               class="main-block main__live-drop-block ng-star-inserted">
-              <div class="main__block-title"><img src="./public/images/icon/live.png" class="icon"> Live drop
+              <div class="main__block-title"><i class="icon icon_three-lines"></i> Live drop
               </div>
               <div class="main__live-drops ng-star-inserted"><main-live-drop _nghost-serverapp-c138=""
                   class="ng-tns-c138-448 ng-trigger ng-trigger-liveDropAnimation ng-star-inserted ng-animating"
@@ -3933,7 +3792,7 @@
                   <div _ngcontent-serverapp-c122="" dropdowntoggle="" class="languages__current">
                     <div _ngcontent-serverapp-c122="" class="flag flag_en"></div>
                     <div _ngcontent-serverapp-c122="" class="languages__current-name"> English </div>
-                    <img src="./public/images/icon/down-arrow.png" class="icon down_arrow lang_arrow">
+                    <div _ngcontent-serverapp-c122="" class="icon icon_arrow-triangle-alt"></div>
                   </div>
                   <div _ngcontent-serverapp-c122="" dropdowncontent="" class="languages__list">
                     <div _ngcontent-serverapp-c122="" scroll="vertical"
@@ -4024,10 +3883,12 @@
             </div>
             <div class="footer__medias medias">
               <div class="medias__title"> Social media </div><a target="_blank" class="medias__link"
-                href="https://t.me/csfail"><img src="./public/images/icon/telegram.png" class="icon"></a><!----><a target="_blank"
-                class="medias__link" href="https://discord.gg/csfail"><img src="./public/images/icon/discord.png" class="icon"</a><!----><a target="_blank" class="medias__link"
-                href="https://vk.com/cs.fail"><img src="./public/images/icon/vk.png" class="icon"></a><!----><a target="_blank"
-                class="medias__link" href="https://www.youtube.com/c/CSFAIL2020"><img src="./public/images/icon/youtube.png" class="icon"></a><!---->
+                href="https://t.me/csfail"><i class="icon icon_tg-auth"></i></a><!----><a target="_blank"
+                class="medias__link" href="https://discord.gg/csfail"><i
+                  class="icon icon_discord-auth"></i></a><!----><a target="_blank" class="medias__link"
+                href="https://vk.com/cs.fail"><i class="icon icon_vk-solid"></i></a><!----><a target="_blank"
+                class="medias__link" href="https://www.youtube.com/c/CSFAIL2020"><i
+                  class="icon icon_youtube"></i></a><!---->
             </div><!---->
           </div>
           <div class="footer__danger footer__wrap">
@@ -4058,7 +3919,8 @@
               class="link footer__nav-item" href="https://csfail.pro/en/provably-fair">Provably fair</a></div>
         </shell-footer>
       </div><chat-sidebar class="chat-sidebar"><!----></chat-sidebar><button type="button"
-        class="chat-toggler button"><img src="./public/images/icon/chat.png" class="icon"></button><!----><!----><!----><!----><!----><!----><!---->
+        class="chat-toggler button"><i
+          class="icon icon_comment"></i></button><!----><!----><!----><!----><!----><!----><!---->
     </shell-wrapper><!----></app-root>
 
 </body>

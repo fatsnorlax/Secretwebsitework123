@@ -84,7 +84,6 @@
     <link rel="alternate" hreflang="vi" href="https://csfail.org/vi/"><!--<base href="/en/">-->
     <base href=".">
     <style>
-
         :root {
             --gutter: 2rem;
             --gutter-page: 4rem;
@@ -6658,28 +6657,9 @@
             text-align: center
         }
 
-        [_nghost-serverApp-c143] .seasonpass-task__receive.is-locked[_ngcontent-serverApp-c143] .seasonpass-task__icon[_ngcontent-serverApp-c143] {
-            position: relative;
-            display: flex;
-            flex-flow: row nowrap;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-            width: 26px;
-            height: 26px;
-            background-image: none
-        }
+        
 
-        [_nghost-serverApp-c143] .seasonpass-task__receive.is-locked[_ngcontent-serverApp-c143] .seasonpass-task__icon[_ngcontent-serverApp-c143]:before {
-            content: "\e97b";
-            background: linear-gradient(180deg, #485576 0%, #899FD7 100%);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-family: icomoon !important;
-            font-size: 19px
-        }
-
+        
         [_nghost-serverApp-c143] .seasonpass-task__receive.is-locked[_ngcontent-serverApp-c143] .seasonpass-task__exp[_ngcontent-serverApp-c143] {
             color: #7e92c6;
             font-weight: 700;
@@ -6689,9 +6669,6 @@
         [_nghost-serverApp-c143] .seasonpass-task__icon[_ngcontent-serverApp-c143] {
             width: 24px;
             height: 24px;
-            background-image: url(./public/images/xp-icon.c21912323300b2df.webp);
-            background-size: contain;
-            background-repeat: no-repeat
         }
 
         [_nghost-serverApp-c143] .seasonpass-task__exp[_ngcontent-serverApp-c143] {
@@ -7026,49 +7003,48 @@
                 </div><!---->
             </div><!----><!---->
         </ng-progress><router-outlet></router-outlet><shell-wrapper class="ng-star-inserted">
-            <div class="wrapper ng-star-inserted"><shell-header class="header" _nghost-serverapp-c119=""><a
-                        _ngcontent-serverapp-c119="" routerlink="/"
-                        class="header__logo logo logo_header link ng-star-inserted" href="https://csfail.pro/en/"><span
+            <div class="wrapper ng-star-inserted">
+                <shell-header class="header" _nghost-serverapp-c119=""><a _ngcontent-serverapp-c119="" routerlink="/"
+                        class="header__logo logo logo_header link" href="https://csfail.pro/en/"><span
                             _ngcontent-serverapp-c119="" class="logo__circle"></span><span _ngcontent-serverapp-c119=""
                             class="logo__arrow logo__arrow_small"></span><span _ngcontent-serverapp-c119=""
                             class="logo__arrow logo__arrow_big"></span><span _ngcontent-serverapp-c119=""
                             class="logo__text"></span></a>
-                    <div _ngcontent-serverapp-c119="" class="header__games header-games ng-star-inserted"><button
+                    <div _ngcontent-serverapp-c119="" class="header__games header-games"><button
                             _ngcontent-serverapp-c119="" type="button" placement="bottom-start" appendto="parent"
                             variation="headerGames" class="header-games__btn button button_block"
-                            aria-expanded="false"><i _ngcontent-serverapp-c119=""
-                                class="icon icon_retro-bug"></i>Games<!----><i _ngcontent-serverapp-c119=""
-                                class="icon icon_arrow-triangle-alt"></i></button><!----></div>
-                    <div _ngcontent-serverapp-c119="" class="header__menu menu ng-star-inserted"><a
-                            _ngcontent-serverapp-c119="" routerlink="/season-pass" routerlinkactive="is-active"
-                            class="menu__link link is-active" href="https://csfail.pro/en/season-pass"><span
-                                _ngcontent-serverapp-c119="" class="mode__icon">
+                            aria-expanded="false"><img src="./public/images/icon/retro-game.png"
+                                class="icon icon_retro_game">Games<!----><img src="./public/images/icon/down-arrow.png"
+                                class="icon down_arrow"></button><!----></div>
+                    <div _ngcontent-serverapp-c119="" class="header__menu menu"><a _ngcontent-serverapp-c119=""
+                            routerlink="/season-pass" routerlinkactive="is-active" class="menu__link link"
+                            href="https://csfail.pro/en/season-pass"><span _ngcontent-serverapp-c119=""
+                                class="mode__icon">
                                 <div _ngcontent-serverapp-c119="" class="shield-grey"></div>
                                 <div _ngcontent-serverapp-c119="" class="arrows-grey"></div>
                                 <div _ngcontent-serverapp-c119="" class="shield-pink"></div>
                                 <div _ngcontent-serverapp-c119="" class="arrows-pink"></div>
                             </span>Battle pass<!----></a><a _ngcontent-serverapp-c119="" routerlink="/bonuses"
                             routerlinkactive="is-active" class="menu__link link"
-                            href="https://csfail.pro/en/bonuses"><span _ngcontent-serverapp-c119=""
-                                class="icon icon_ticket-bold"></span>Bonuses<!----></a><a _ngcontent-serverapp-c119=""
-                            routerlink="/top" routerlinkactive="is-active" class="menu__link link"
-                            href="https://csfail.pro/en/top"><i _ngcontent-serverapp-c119=""
-                                class="icon icon_trophy-bold"></i>Top<!----></a><a _ngcontent-serverapp-c119=""
-                            routerlink="/referrals" routerlinkactive="is-active" class="menu__link link"
-                            href="https://csfail.pro/en/referrals"><i _ngcontent-serverapp-c119=""
-                                class="icon icon_parthership-bold"></i>Partnership<!----></a></div>
-                    <div _ngcontent-serverapp-c119="" class="header__profile profile-header ng-star-inserted">
-                        <users-login-button _ngcontent-serverapp-c119="" class="profile-header__login ng-star-inserted"
+                            href="https://csfail.pro/en/bonuses"><img src="./public/images/icon/money.png"
+                                class="icon"></span>Bonuses<!----></a><a _ngcontent-serverapp-c119="" routerlink="/top"
+                            routerlinkactive="is-active" class="menu__link link" href="https://csfail.pro/en/top"><img
+                                src="./public/images/icon/top.png" class="icon">Top<!----></a><a
+                            _ngcontent-serverapp-c119="" routerlink="/referrals" routerlinkactive="is-active"
+                            class="menu__link link" href="https://csfail.pro/en/referrals"><img
+                                src="./public/images/icon/suitcase.png" class="icon">Partnership<!----></a></div>
+                    <div _ngcontent-serverapp-c119="" class="header__profile profile-header"><users-login-button
+                            _ngcontent-serverapp-c119="" class="profile-header__login ng-star-inserted"
                             _nghost-serverapp-c87=""><button _ngcontent-serverapp-c87="" type="button"
-                                class="button button_login"><i _ngcontent-serverapp-c87=""
-                                    class="icon icon_lock-bold-2"></i><span _ngcontent-serverapp-c87=""
+                                class="button button_login"><img src="./public/images/icon/padlock.png"
+                                    class="icon"><span _ngcontent-serverapp-c87=""
                                     class="button__text">Authorization</span></button></users-login-button><!----><!----><!---->
                         <div _ngcontent-serverapp-c119="" class="header__actions"><!----><a _ngcontent-serverapp-c119=""
                                 routerlink="/support" class="header__support button"
-                                href="https://csfail.pro/en/support"><i _ngcontent-serverapp-c119=""
-                                    class="icon icon_support-alt"></i></a><button _ngcontent-serverapp-c119=""
-                                type="button" class="header__settings button"><i _ngcontent-serverapp-c119=""
-                                    class="icon icon_cog-bold"></i></button><!----><!----></div>
+                                href="https://csfail.pro/en/support"><img src="./public/images/icon/support.png"
+                                    class="icon"></a><button _ngcontent-serverapp-c119="" type="button"
+                                class="header__settings button"><img src="./public/images/icon/settings.png"
+                                    class="icon"></button><!----><!----></div>
                     </div><!----><!---->
                 </shell-header>
                 <div class="container"><router-outlet></router-outlet><seasonpass-home
@@ -7116,7 +7092,7 @@
                                 </div>
                                 <div class="seasonpass-header__not-logged not-logged ng-star-inserted">
                                     <div class="not-logged__content">
-                                        <div class="not-logged__icon icon icon_lock-bold-2"></div>
+                                        <img src="./public/images/icon/padlock.png" class="icon not-logged__icon">
                                         <div class="not-logged__text">
                                             <div class="not-logged__title">Attention!</div>
                                             <div class="not-logged__subtitle">Authorization required to participate
@@ -7124,8 +7100,7 @@
                                         </div>
                                     </div><users-login-button classlist="not-logged__button button button_md"
                                         _nghost-serverapp-c87=""><button _ngcontent-serverapp-c87="" type="button"
-                                            class="not-logged__button button button_md"><i _ngcontent-serverapp-c87=""
-                                                class="icon icon_lock-bold-2"></i><span _ngcontent-serverapp-c87=""
+                                            class="not-logged__button button button_md"><img src="./public/images/icon/padlock.png" class="icon"><span _ngcontent-serverapp-c87=""
                                                 class="button__text">Authorization</span></button></users-login-button>
                                 </div><!---->
                             </div>
@@ -7151,9 +7126,8 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/dfbcf02f-6691-49da-ab17-725374b50868-6387adda05753.png"
                                                         alt="Random customization"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div>        
+                                                        
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7161,7 +7135,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         1 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="1"
                                             class="swiper-slide ng-star-inserted swiper-slide-next">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
@@ -7174,9 +7149,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/a2a985d6-4d70-4b2f-b2f8-eedf97246bbb-63865ffd4f935.png"
                                                         alt="Rudolf"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7184,7 +7157,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         2 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="2" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7196,9 +7170,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/dfbcf02f-6691-49da-ab17-725374b50868-6387adda05753.png"
                                                         alt="Cat Avatars"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7206,7 +7178,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         3 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="3" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7218,9 +7191,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/3217cc9a-87fd-4d2f-99cd-62fa2259c0fa-633ddf334e91d.png"
                                                         alt="Random skin"></div><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward__action icon icon_lock-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!----><!---->
+                                                        <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/padlock.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7228,7 +7199,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         4 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="4" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7240,9 +7212,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/7936d451-0557-46c0-82fa-97be19a969f3-6387adda2e3b2.png"
                                                         alt="Cream case"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7250,7 +7220,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         5 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="5" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7262,9 +7233,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/0bb20c3a-3b64-4925-969f-7d18c8376580-63865ffd3f458.png"
                                                         alt="Good boy"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7272,7 +7241,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         6 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="6" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7284,9 +7254,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/37a30add-06fe-40b8-aeab-ce9a0bd3c4ce-6387adda2fa70.png"
                                                         alt="Mystery pistols"></div><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward__action icon icon_lock-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!----><!---->
+                                                        <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/padlock.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7294,7 +7262,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         7 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="7" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7306,9 +7275,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/96eb36dc-06e8-4c5e-80e3-6690791a5728-6387adda0e83b.png"
                                                         alt="Liquid nitrogen"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7316,7 +7283,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         8 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="8" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7328,9 +7296,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/a2969402-6a4b-4143-a37e-fe88e91ac0ca-633eb508f27f4.png"
                                                         alt="+50% to a deposit from 10$"></div><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward__action icon icon_lock-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!----><!---->
+                                                        <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/padlock.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7338,7 +7304,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         9 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="9" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7350,9 +7317,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/1f2755a8-7651-4310-92a4-b8671df1ca8e-6387adf2d23a5.png"
                                                         alt="Year 2023"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7360,7 +7325,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         10 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="10" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7372,9 +7338,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/dfbcf02f-6691-49da-ab17-725374b50868-6387adda05753.png"
                                                         alt="Snow avatars"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7382,7 +7346,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         11 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="11" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7394,9 +7359,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/8855438a-3a0c-42a7-a956-ad0e59085773-6304c38e069e2.png"
                                                         alt="AWP farm"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7404,7 +7367,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         12 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="12" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7416,9 +7380,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/e250548e-7643-4015-b698-6106f8606ccc-6387adf2eeac9.png"
                                                         alt="Snowmen"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7426,7 +7388,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         13 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="13" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7438,9 +7401,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/d92b5d24-7fb6-4460-b16b-70b43b8f7e39-63865ffe05d8c.png"
                                                         alt="Holiday mood"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7448,7 +7409,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         14 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="14" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7460,9 +7422,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/eb0babd6-68f3-4c06-b410-4933b46be86d-6387adf2d759b.png"
                                                         alt="Christmas decorations"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7470,7 +7430,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         15 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="15" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7482,9 +7443,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/9bab280b-3d3a-4554-b166-077d48f67c32-633458107df97.png"
                                                         alt="Army skins category"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7492,7 +7451,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         16 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="16" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7504,9 +7464,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/a908c5df-6496-4326-84b9-a10108bbb13a-6304c38ded9ec.png"
                                                         alt="Random AK-47"></div><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward__action icon icon_lock-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!----><!---->
+                                                        <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/padlock.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7514,7 +7472,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         17 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="17" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7526,9 +7485,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/b613c5c1-2d0b-431b-b072-dfbfd7dac11b-6387adf2d7159.png"
                                                         alt="Santa Claus"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7536,7 +7493,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         18 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="18" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7548,9 +7506,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/dfbcf02f-6691-49da-ab17-725374b50868-6387adda05753.png"
                                                         alt="Random avatar"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7558,7 +7514,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         19 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="19" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7570,9 +7527,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/6cc836f9-4f66-42a6-b51d-ecc280bc6fdd-6387adda2f1fd.png"
                                                         alt="Ice blizzard"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7580,7 +7535,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         20 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="20" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7592,9 +7548,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/a2969402-6a4b-4143-a37e-fe88e91ac0ca-633eb508f27f4.png"
                                                         alt="+50% to a deposit from 5$"></div><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward__action icon icon_lock-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!----><!---->
+                                                        <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/padlock.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7602,7 +7556,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         21 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="21" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7614,9 +7569,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/dfbcf02f-6691-49da-ab17-725374b50868-6387adda05753.png"
                                                         alt="Winter avatars"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7624,7 +7577,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         22 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="22" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7636,9 +7590,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/140fb0ca-4940-4ba8-a5c9-4d6591be685d-6387adda2fea4.png"
                                                         alt="Mint case"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7646,7 +7598,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         23 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="23" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7658,9 +7611,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/d1718a06-5290-44ff-a452-80c69f8d1514-633458107a2bf.png"
                                                         alt="Forbidden quality category"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7668,7 +7619,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         24 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="24" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7680,9 +7632,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/c619116a-22f5-4f1d-b053-5d7aeb82a5dd-6387adf2f3ba2.png"
                                                         alt="Tangerine explosion"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7690,7 +7640,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         25 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="25" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7702,9 +7653,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/8825e1e3-b172-45bf-83f3-f722db6719da-63865ffda816a.png"
                                                         alt="Alcorabbit"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7712,7 +7661,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         26 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="26" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7724,9 +7674,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/b5365f8b-7f22-4c4d-8120-7e6b73f13686-6387add99fb38.png"
                                                         alt="Blue wave"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7734,7 +7682,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         27 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="27" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7746,9 +7695,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/55f814ca-f7d7-40d1-94be-c51428845fd5-6387add99bccb.png"
                                                         alt="Theory and practice"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7756,7 +7703,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         28 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="28" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7768,9 +7716,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/847e90d2-3c5a-4532-8655-963f519ccdfd-6387adda2f580.png"
                                                         alt="Fire element"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7778,7 +7724,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         29 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="29" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7790,9 +7737,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/b5a28267-1d04-4ac3-9724-4f106d70a92b-633458107a69c.png"
                                                         alt="Classified skins category"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7800,7 +7745,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         30 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="30" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7812,9 +7758,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/74757843-ccb0-4233-9aa7-e066081998df-6304c38e063ac.png"
                                                         alt="+70% to a deposit from $25"></div><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward__action icon icon_lock-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!----><!---->
+                                                        <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/padlock.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7822,7 +7766,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         31 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="31" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7834,9 +7779,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/50c15e82-8de5-4761-84a9-3307a9cb24d0-633eb50919c3f.png"
                                                         alt="Bonus gifts"></div><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward__action icon icon_lock-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!----><!---->
+                                                        <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/padlock.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7844,7 +7787,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         32 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="32" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7866,7 +7810,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         33 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="33" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7878,9 +7823,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/16b728f0-9c73-4ce8-9fd5-86ee8bbdbf98-6387adda0933d.png"
                                                         alt="Night Case"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7888,7 +7831,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         34 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="34" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7900,9 +7844,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/faea12b8-f44f-4e4b-9c2a-cd8e026a1bc9-633458107a2bf.png"
                                                         alt="Covert skins category"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7910,7 +7852,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         35 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="35" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7922,9 +7865,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/dfbcf02f-6691-49da-ab17-725374b50868-6387adda05753.png"
                                                         alt="Holiday avatars"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7932,7 +7873,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         36 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="36" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7954,7 +7896,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         37 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="37" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7966,9 +7909,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/5151ec73-04a8-47ec-91e4-a58d559674e6-6387adda2f75f.png"
                                                         alt="Full confidence"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7976,7 +7917,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         38 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="38" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -7988,9 +7930,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/da0ccd90-f7d7-46a3-9daf-c85923baba65-63865ffda4f4a.png"
                                                         alt="Elfs"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -7998,7 +7938,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         39 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="39" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -8010,9 +7951,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/3a44fc2a-35de-4a1d-84e6-6f58066b0740-6387adda06cb4.png"
                                                         alt="Shooter&#39;s bonus"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -8020,7 +7959,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         40 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="40" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -8032,9 +7972,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/77d94d8c-0ef2-40db-a21e-da94a8bfc220-633ddf32e140d.png"
                                                         alt="Emo Case"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -8042,7 +7980,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         41 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="41" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -8054,9 +7993,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/931963af-57b8-4f22-929e-37f8cb24a3cd-633eb50912bf8.png"
                                                         alt="CS:GO Agents"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -8064,7 +8001,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         42 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="42" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -8076,9 +8014,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/18dcef53-9779-4007-baee-268a0b28d0db-6387adda2ff28.png"
                                                         alt="Arsenal"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -8086,7 +8022,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         43 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="43" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -8098,9 +8035,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/e9740340-27b7-4ce8-98be-03faeb0326a8-63865ffd3372e.png"
                                                         alt="Snowmen"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -8108,7 +8043,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         44 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="44" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -8130,7 +8066,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         45 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="45" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -8142,9 +8079,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/6cc836f9-4f66-42a6-b51d-ecc280bc6fdd-6387adda2f1fd.png"
                                                         alt="Gills"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -8152,7 +8087,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         46 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="46" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -8174,7 +8110,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         47 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="47" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -8186,9 +8123,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/817d62d3-2817-4667-9dc7-985b06a0629e-6304c38e0d77e.png"
                                                         alt="Winter set"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -8196,7 +8131,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         48 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="48" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -8208,9 +8144,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/b5365f8b-7f22-4c4d-8120-7e6b73f13686-6387add99fb38.png"
                                                         alt="Neon rain"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -8218,7 +8152,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         49 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <div data-swiper-slide-index="49" class="swiper-slide ng-star-inserted">
                                             <!----><seasonpass-prize _nghost-serverapp-c141=""
                                                 class="is-unavailable ng-star-inserted">
@@ -8230,9 +8165,7 @@
                                                         _ngcontent-serverapp-c141="" class="image"
                                                         src="./public/images/56fb1eaa-759c-4842-b0ae-42576a9f4ebc-633ddf33120e4.png"
                                                         alt="Box of knives"></div><!----><!---->
-                                                <div _ngcontent-serverapp-c141=""
-                                                    class="seasonpass-reward_preview icon icon_eye-bold-2 ng-star-inserted">
-                                                </div><!----><!----><!---->
+                                                <div _ngcontent-serverapp-c141="" class="seasonpass-reward_preview ng-star-inserted"><img src="./public/images/icon/eye.png" class="icon"></div> 
                                                 <div _ngcontent-serverapp-c141=""
                                                     class="seasonpass-reward__level-wrapper ng-star-inserted">
                                                     <div _ngcontent-serverapp-c141=""
@@ -8240,7 +8173,8 @@
                                                     <div _ngcontent-serverapp-c141="" class="seasonpass-reward__level">
                                                         50 </div>
                                                 </div><!----><!----><!---->
-                                            </seasonpass-prize><!----><!----><!----><!----></div>
+                                            </seasonpass-prize><!----><!----><!----><!---->
+                                        </div>
                                         <!----><!----><!----><!---->
                                     </div><!---->
                                 </swiper><!---->
@@ -8249,7 +8183,7 @@
                                         <div class="icon icon_chevron-left"></div>
                                     </button><button
                                         class="seasonpass-timeline__control seasonpass-timeline__control_next button button_square">
-                                        <div class="icon icon_chevron-right"></div>
+                                        <img src="./public/images/icon/right-chevron.png" class="icon">
                                     </button></div>
                             </div>
                             <div class="seasonpass-timeline__progress progress progress_lg progress_silver">
@@ -8264,14 +8198,14 @@
                             _nghost-serverapp-c145="">
                             <div _ngcontent-serverapp-c145="" class="seasonpass-page__tabs seasonpass-tabs">
                                 <div _ngcontent-serverapp-c145="" class="tab is-active">
-                                    <div _ngcontent-serverapp-c145="" class="icon icon_paper-clip-tablet"></div>
+                                    <img src="./public/images/icon/google-docs.png" class="icon_tabs">
                                     General<!---->
                                 </div>
                                 <div _ngcontent-serverapp-c145="" class="tab">
-                                    <div _ngcontent-serverapp-c145="" class="icon icon_clock"></div>Daily<!---->
+                                    <img src="./public/images/icon/clock.png" class="icon_tabs">Daily<!---->
                                 </div>
                                 <div _ngcontent-serverapp-c145="" class="tab">
-                                    <div _ngcontent-serverapp-c145="" class="icon icon_calendar-simple"></div>
+                                    <img src="./public/images/icon/calendar.png" class="icon_tabs">
                                     Weekly<!---->
                                 </div>
                             </div>
@@ -8281,7 +8215,7 @@
                                     _nghost-serverapp-c144="">
                                     <div _ngcontent-serverapp-c144="" class="seasonpass-tasks__head">
                                         <div _ngcontent-serverapp-c144=""
-                                            class="seasonpass-tasks__icon icon icon_file-text-bold"></div>
+                                            class="seasonpass-tasks__icon"><img src="./public/images/icon/google-docs.png" class="icon_seasonpass_task"></div>
                                         <div _ngcontent-serverapp-c144="" class="seasonpass-tasks__title-wrapper">
                                             <div _ngcontent-serverapp-c144="" class="seasonpass-tasks__title"> General
                                                 tasks </div>
@@ -8313,11 +8247,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8334,11 +8268,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8352,11 +8286,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8373,11 +8307,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8394,11 +8328,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8416,11 +8350,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8437,11 +8371,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8458,11 +8392,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8479,11 +8413,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><!----></div>
                                         <div class="cdk-virtual-scroll-spacer" style="height: 1500px;"></div>
@@ -8493,14 +8427,15 @@
                                     class="seasonpass-tasks ng-star-inserted" _nghost-serverapp-c144="">
                                     <div _ngcontent-serverapp-c144="" class="seasonpass-tasks__head">
                                         <div _ngcontent-serverapp-c144=""
-                                            class="seasonpass-tasks__icon icon icon_clock-bold"></div>
+                                            class="seasonpass-tasks__icon"><img src="./public/images/icon/clock.png" class="icon_seasonpass_task"></div>
                                         <div _ngcontent-serverapp-c144="" class="seasonpass-tasks__title-wrapper">
                                             <div _ngcontent-serverapp-c144="" class="seasonpass-tasks__title"> Daily
                                                 quests </div>
                                             <div _ngcontent-serverapp-c144="" class="seasonpass-tasks__subtitle">
                                                 <!---->Update through<!----><span _ngcontent-serverapp-c144=""
                                                     class="ng-star-inserted"><!----> 11:43:59
-                                                    <!----><!----></span><!----><!----></div>
+                                                    <!----><!----></span><!----><!---->
+                                            </div>
                                         </div>
                                         <div _ngcontent-serverapp-c144="" class="seasonpass-tasks__counters"><span
                                                 _ngcontent-serverapp-c144=""
@@ -8526,11 +8461,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8544,11 +8479,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8565,11 +8500,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8586,11 +8521,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8604,11 +8539,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8626,11 +8561,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8645,11 +8580,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8666,11 +8601,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><!----></div>
                                         <div class="cdk-virtual-scroll-spacer" style="height: 480px;"></div>
@@ -8680,14 +8615,15 @@
                                     class="seasonpass-tasks ng-star-inserted" _nghost-serverapp-c144="">
                                     <div _ngcontent-serverapp-c144="" class="seasonpass-tasks__head">
                                         <div _ngcontent-serverapp-c144=""
-                                            class="seasonpass-tasks__icon icon icon_calendar-bold"></div>
+                                            class="seasonpass-tasks__icon"><img src="./public/images/icon/calendar.png" class="icon_seasonpass_task"></div>
                                         <div _ngcontent-serverapp-c144="" class="seasonpass-tasks__title-wrapper">
                                             <div _ngcontent-serverapp-c144="" class="seasonpass-tasks__title"> Weekly
                                                 quests </div>
                                             <div _ngcontent-serverapp-c144="" class="seasonpass-tasks__subtitle">
                                                 <!---->Update through<!----><span _ngcontent-serverapp-c144=""
                                                     class="ng-star-inserted"> 4 days <!----><!----> 11:44:00
-                                                    <!----><!----></span><!----><!----></div>
+                                                    <!----><!----></span><!----><!---->
+                                            </div>
                                         </div>
                                         <div _ngcontent-serverapp-c144="" class="seasonpass-tasks__counters"><span
                                                 _ngcontent-serverapp-c144=""
@@ -8713,11 +8649,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8734,11 +8670,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8755,11 +8691,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8777,11 +8713,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8799,11 +8735,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8820,11 +8756,11 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><seasonpass-quest _ngcontent-serverapp-c144=""
                                                 class="seasonpass-task is-disabled ng-star-inserted"
@@ -8842,18 +8778,20 @@
                                                 </div>
                                                 <div _ngcontent-serverapp-c143=""
                                                     class="seasonpass-task__receive is-locked"><!---->
-                                                    <div _ngcontent-serverapp-c143=""
-                                                        class="seasonpass-task__icon ng-star-inserted"></div>
+                                                    <div _ngcontent-serverapp-c143="" class="seasonpass-task__icon"><img src="./public/images/icon/padlock.png" class="icon_task"></div>
                                                     <div _ngcontent-serverapp-c143=""
                                                         class="seasonpass-task__exp ng-star-inserted"> LVL 1
-                                                        <!----><!----></div><!----><!---->
+                                                        <!----><!---->
+                                                    </div><!----><!---->
                                                 </div>
                                             </seasonpass-quest><!----></div>
                                         <div class="cdk-virtual-scroll-spacer" style="height: 420px;"></div>
                                     </cdk-virtual-scroll-viewport><!----><!---->
-                                </seasonpass-quests-group><!----></div><!---->
+                                </seasonpass-quests-group><!---->
+                            </div><!---->
                         </seasonpass-quests><!----><!----><!----><!----><!----><!---->
-                    </seasonpass-home><!----></div><shell-footer class="footer">
+                    </seasonpass-home><!----></div>
+                <shell-footer class="footer">
                     <div class="footer__wrap">
                         <div class="footer__control">
                             <div class="footer__logo-wrap">
@@ -8867,7 +8805,8 @@
                                         <div _ngcontent-serverapp-c122="" class="flag flag_en"></div>
                                         <div _ngcontent-serverapp-c122="" class="languages__current-name"> English
                                         </div>
-                                        <div _ngcontent-serverapp-c122="" class="icon icon_arrow-triangle-alt"></div>
+                                        <img src="./public/images/icon/down-arrow.png"
+                                            class="icon down_arrow lang_arrow">
                                     </div>
                                     <div _ngcontent-serverapp-c122="" dropdowncontent="" class="languages__list">
                                         <div _ngcontent-serverapp-c122="" scroll="vertical"
@@ -8978,23 +8917,22 @@
                                 </div>
                             </shell-language-selector>
                         </div>
-                        <div class="footer__medias medias ng-star-inserted">
-                            <div class="medias__title"> Social media </div><a target="_blank"
-                                class="medias__link ng-star-inserted" href="https://t.me/csfail"><i
-                                    class="icon icon_tg-auth"></i></a><!----><a target="_blank"
-                                class="medias__link ng-star-inserted" href="https://discord.gg/csfail"><i
-                                    class="icon icon_discord-auth"></i></a><!----><a target="_blank"
-                                class="medias__link ng-star-inserted" href="https://vk.com/cs.fail"><i
-                                    class="icon icon_vk-solid"></i></a><!----><a target="_blank"
-                                class="medias__link ng-star-inserted" href="https://www.youtube.com/c/CSFAIL2020"><i
-                                    class="icon icon_youtube"></i></a><!---->
-                        </div><!---->
+                        <div class="footer__medias medias">
+                            <div class="medias__title"> Social media </div><a target="_blank" class="medias__link"
+                                href="https://t.me/csfail"><img src="./public/images/icon/telegram.png"
+                                    class="icon"></a><!----><a target="_blank" class="medias__link"
+                                href="https://discord.gg/csfail"><img src="./public/images/icon/discord.png"
+                                    class="icon"></a><a target="_blank" class="medias__link"
+                                href="https://vk.com/cs.fail"><img src="./public/images/icon/vk.png"
+                                    class="icon"></a><!----><a target="_blank" class="medias__link"
+                                href="https://www.youtube.com/c/CSFAIL2020"><img src="./public/images/icon/youtube.png"
+                                    class="icon"></a><!---->
+                        </div>
                     </div>
                     <div class="footer__danger footer__wrap">
                         <div class="footer__info footer__wrap">
                             <div class="attention-wrap">
-                                <div class="footer__attention attention"><img
-                                        src="./public/images/main-footer-18.webp"
+                                <div class="footer__attention attention"><img src="./public/images/main-footer-18.webp"
                                         alt="Play responsibly" class="attention__img">
                                     <div class="attention__title">Play responsibly</div>
                                 </div><a href="https://www.trustpilot.com/review/cs.fail" target="_blank"
@@ -9005,9 +8943,8 @@
                             <div class="footer__address"> Company number 13246765, 16 John Nicholass Crescent, Ellesmere
                                 Port, Cheshire, United Kingdom CH65 2DL, SIC Codes: 47910 </div>
                         </div><a href="https://www.trustpilot.com/review/cs.fail" target="_blank"
-                            class="link link_trust-pilot"><img
-                                src="./public/images/main-trust-pilot.webp" alt="Trust pilot"
-                                class="footer__trust"></a>
+                            class="link link_trust-pilot"><img src="./public/images/main-trust-pilot.webp"
+                                alt="Trust pilot" class="footer__trust"></a>
                     </div>
                     <div class="footer__nav"><a routerlink="/support" class="link footer__nav-item"
                             href="https://csfail.pro/en/support">Support</a><a routerlink="/support/contacts"
@@ -9020,24 +8957,8 @@
                             href="https://csfail.pro/en/provably-fair">Provably fair</a></div>
                 </shell-footer>
             </div><chat-sidebar class="chat-sidebar ng-star-inserted"><!----></chat-sidebar><button type="button"
-                class="chat-toggler button ng-star-inserted"><i
-                    class="icon icon_comment"></i></button><!----><!----><!----><!----><!----><!----><!---->
+                class="chat-toggler button ng-star-inserted"><img src="./public/images/icon/chat.png" class="icon"></button><!----><!----><!----><!----><!----><!----><!---->
         </shell-wrapper><!----></app-root>
-    <script src="./public/images/runtime.72711f381045a112.js.загружено" type="module"></script>
-    <script src="./public/images/polyfills.ce6f1dd3dab0485f.js.загружено" type="module"></script>
-    <script src="./public/images/main.a20631329fc9389b.js.загружено" type="module"></script>
-    <script type="text/javascript"
-        id="">(function (a, e, f, g, b, c, d) { a[b] = a[b] || function () { (a[b].a = a[b].a || []).push(arguments) }; a[b].l = 1 * new Date; c = e.createElement(f); d = e.getElementsByTagName(f)[0]; c.async = 1; c.src = g; d.parentNode.insertBefore(c, d) })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(62961106, "init", { clickmap: !0, trackLinks: !0, accurateTrackBounce: !0 });</script>
-    <noscript>
-        <div><img src="https://mc.yandex.ru/watch/62961106" style="position:absolute; left:-9999px;" alt=""></div>
-    </noscript>
-
-    <script type="text/javascript"
-        id="">!function (b, e, f, g, a, c, d) { b.fbq || (a = b.fbq = function () { a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments) }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e.createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(c, d)) }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js"); fbq("init", "3823927924298788"); fbq("track", "PageView");</script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=3823927924298788&amp;ev=PageView&amp;noscript=1"></noscript>
-    <script type="text/javascript" id="">yaCounter62961106.reachGoal("menu__icon icon icon_trophy");</script>
-    <script type="text/javascript" id="">yaCounter62961106.reachGoal("menu__icon icon icon_trophy");</script>
 </body>
 
 </html>
